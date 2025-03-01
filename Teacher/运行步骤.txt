@@ -1,0 +1,5 @@
+1 start-all.sh启动hadoop
+2 进入flink文件夹./bin/yarn-session.sh -n 2 -tm 1024 -s 2启动flink
+3 sudo systemctl status redis启动redis
+4 进入项目根目录python3 init_redis_queue.py初始化redis队列
+5 python3 run_spiders.py 
